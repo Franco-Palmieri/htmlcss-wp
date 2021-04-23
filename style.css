@@ -60,21 +60,15 @@ aside{
 }
 .aside-left{
     margin-right: 15px;
-    padding: 10px;
 }
 .aside-right{
     margin-left: 15px;
-    padding: 10px;
-}
-aside p{
-    color: lightgray;
 }
 article{
     width: 60%;
     background-color: lightskyblue;
     height: 500px;
     background-color: lightskyblue;
-    
 }
 footer{
     width: 100%;
@@ -114,15 +108,27 @@ li:last-child{
     font-size: 20px;
 }
 .img-1{
-    width: 200px;
+    width: 100%;
+    height: 200px;
     border-radius: 5px;
 }
 .img-2{
-    width: 200px;
+    width: 100%;
     height: 200px;
-    background-color: salmon;
     background-image: url(./img/img-3.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 5px;
+}
+.banner{
+    background-color: lightpink;
+    width: 100%;
+    height: 200px;
+    background-image: url(./img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+article p, .paragrafo span, aside p{
+    color: lightgray;
 }
