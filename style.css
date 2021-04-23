@@ -35,12 +35,12 @@ header{
 .ombra{
     width: 100%;
     height: 500px;
-    background-color: rgba(0, 0, 0, 0.3)
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
 }
 .paragrafo{
     width: 100%;
     height: 100px;
-    background-color: lightskyblue;
     margin-bottom: 20px;
 }
 .paragrafo h2{
@@ -48,13 +48,11 @@ header{
 }
 .main-page{
     width: 100%;
-    background-color: blue;
     margin: 0px 0 10px 0;
     padding-bottom: 20px;
 }
 aside{
     width: calc(20% - 15px);
-    background-color: lightskyblue;
     height: 500px;
         
 }
@@ -66,14 +64,11 @@ aside{
 }
 article{
     width: 60%;
-    background-color: lightskyblue;
     height: 500px;
-    background-color: lightskyblue;
 }
 footer{
     width: 100%;
     height: 50px;
-    background-color: mediumslateblue;
 }
 /* Esercizio due */
 .logo{
@@ -85,7 +80,7 @@ footer{
 }
 ul{
     list-style: none;
-    color: lightgray;
+    color: lightslategrey;
 }
 li{
     display: inline-block;
@@ -104,10 +99,25 @@ li:last-child{
 .p-fig2{
     font-size: 20px;
 }
+.ombra-aside{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.ombra-article{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
 .img-1{
     width: 100%;
     height: 200px;
     border-radius: 5px;
+    background-image: url(./img/img-1.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .img-2{
     width: 100%;
@@ -118,7 +128,6 @@ li:last-child{
     border-radius: 5px;
 }
 .banner{
-    background-color: lightpink;
     width: 100%;
     height: 200px;
     background-image: url(./img/banner-2.jpg);
@@ -127,7 +136,7 @@ li:last-child{
     border-radius: 5px;
 }
 article p, .paragrafo span, aside p{
-    color: lightgray;
+    color: lightslategrey
 }
 footer{
     text-align: center;
@@ -138,4 +147,5 @@ footer{
 }
 aside h3, article h3{
     padding: 10px 0 10px 0;
+    color: rgb(31, 34, 37);
 }
